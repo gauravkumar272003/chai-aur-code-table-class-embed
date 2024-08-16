@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>classes</title>
+    <style>
+        .tabulclass {
+            width: 600px;
+            height: 200px;
+            text-align: center;
+            font-size: 20px;
+            background-color: #183f15;
+            color: white;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th:hover,
+        td:hover {
+            transition: 1s;
+            color: #ffff16;
+            box-shadow: 0 0 1000px #ff1616;
+            text-shadow: 0 0 5px #16ff4d;
+
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(247, 255, 105, 0.534);
+        }
+
+        .heading {
+            text-align: center;
+            color: white;
+            margin-top: auto;
+            margin-left: 500px;
+            margin-right: 500px;
+        }
+
+        .heading:hover {
+            transition: 0.5s;
+            color: #ffff16;
+            box-shadow: 0 0 1000px #1df0ff;
+            text-shadow: 0 0 5px #8a16ff;
+        }
+
+        body {
+            background-color: #414141;
+            color: white;
+        }
+
+        /* .red {
+            text-align: center;
+            color: rgb(253, 92, 34);
+            background-color: white;
+        } */
+
+        /* .krishn {
+            text-align: center;
+            background-color: beige;
+            margin-top: 80px;
+            margin-left: 465px;
+            margin-bottom: 80px;
+            margin-right: 465px;
+            border: 20;
+
+        }
+
+        .krishn:hover::before {
+            transform: scale(1.1);
+            box-shadow: 0 0 40px #ffff16;
+        }
+
+        .krishn:hover {
+            transition: 0.5s;
+            color: #ffff16;
+            box-shadow: 0 0 1000px #16ff4d;
+            text-shadow: 0 0 5px #16ff4d;
+        } */
+
+        /* .krishn:hover::after {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px #16ff4d;
+        } */
+    </style>
+</head>
+
+<body>
+    <h1 class="heading">Collection of some videos</h1>
+
+    <table class="tabulclass">
+        <tr>
+            <th>Name of Videos </th>
+            <th>embed link of video</th>
+        </tr>
+        <tr>
+            <td>Hitesh Choudhary resume</td>
+            <td><iframe width="300" height="150" src="https://www.youtube.com/embed/q-e5Khg8cFU?si=GdDrDZm5mm4_O6ZK"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td>Kanye - Father Stretch My Hands</td>
+            <td><iframe width="300" height="150" src="https://www.youtube.com/embed/XmLOwJHFHf0?si=NxUE5AGwk52IjhjO"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td>Kanye - I Wonder</td>
+            <td><iframe width="300" height="150" src="https://www.youtube.com/embed/bSdp2WeyuJY?si=aoj7aduyVYUQzqMj"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td>Kanye West - Runaway</td>
+            <td><iframe width="300" height="150" src="https://www.youtube.com/embed/qiQR5rTSshw?si=pezMQ5eVF9yvUnb2"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+        <tr>
+            <td>Yashraj, Hanumankind, Manïn - THATS A FACT</td>
+            <td><iframe width="300" height="150" src="https://www.youtube.com/embed/AEz8jEseTFo?si=OBNCbDq5XjhBWaxI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+        </tr>
+
+    </table>
+
+
+    <!-- <p class="krishn"><iframe width="560" height="315"
+            src="https://www.youtube.com/embed/asTzSrkIXns?si=iqGQPqRVD5pNzijH" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+    <hr>
+    <p class="krishn"><iframe width="560" height="315"
+            src="https://www.youtube.com/embed/WbxBljk5SE8?si=NInR0XbV0LQA2-D-" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+    <hr>
+    <p class="krishn"><iframe width="560" height="315"
+            src="https://www.youtube.com/embed/WbxBljk5SE8?si=NInR0XbV0LQA2-D-" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+    <hr>
+    <p class="krishn"><iframe width="560" height="315"
+            src="https://www.youtube.com/embed/WbxBljk5SE8?si=NInR0XbV0LQA2-D-" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+    <hr> -->
+
+</body>
+
+</html>
